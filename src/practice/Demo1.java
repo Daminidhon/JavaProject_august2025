@@ -9,7 +9,7 @@ public class Demo1 {
 		
 		int a=30;    System.out.println(a);
 		int b=40;    System.out.println(b);
-		int c=(a+b); System.out.println("sum of two numbers ="+c);	//+ is a concationation		
+		int c=(a+b); System.out.println("sum of two numbers ="+c);	//+ is a concatenation	
 	}
 
 }

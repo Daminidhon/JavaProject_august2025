@@ -8,36 +8,41 @@ public class LogicalOperators {
 		//if is raining outside
 		//i do not have umbrella
 		//then i wont go to 
+		//AND- 
+		//OR - if i have a green and white shirt or both then i will go to college
 		
-		int x= 65;
-		char grade ='x';
+		int x= 70;
+		char grade ='x'; 
 		 
-		if(x>=60 && x<80 )
+		if(x>=60 && x<80)
 			{
 			
-			grade ='B';
+			grade ='B';  // if x= 70 output = B on the basis of truth table 
 			
 			}
 				
-		if(x>=80 && x>=100 )
+		if(x>=80 && x<=100 )
 			{
 			
-			grade ='A';
+			grade ='A'; // if x= 35 output = F on the basis of truth table 
 			
 			}
 		
-		if( x<=40 && x>60 )
+		if( x>=40 && x<60 )
 			{
 			
-			grade ='C';
+			grade ='C';  // if x= 35 output = F on the basis of truth table 
 			
 			}
-		if(x>20)
+		if(x<40)
 		{
 			grade ='F';
 		}
-		System.out.println(grade);	// output = F on the basis of truth table 
-
+		System.out.println(grade);	// if x= 35 output = F on the basis of truth table 
+		
+		int g=97;
+		System.out.println((g%3==0)||(g%5==0)); // 54=true, 50= true, 10= true , 97=false
+ 
 	}
 
 }
