@@ -25,11 +25,16 @@ public class IfElseDemo3 {
 		{
 		System.out.println("a is greater");
 		}
-		else
+		else if (b>a)
 		{
 			System.out.println("b is greater");
 		}
+		else if (a==b)
+			{
+			System.out.println("a and b, are equal");
+			}
 		sc.close();
 	}
 
 }
+
