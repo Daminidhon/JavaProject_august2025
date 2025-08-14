@@ -7,7 +7,7 @@ public class LoopWhileLoopDemo3 {
 		while(t>=1)
 		{
 			System.out.println(4*t);
-			t--;
+			t--;                   //print table of 4 in reverse order
 		}
 
 	}
